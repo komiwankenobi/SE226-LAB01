@@ -1,0 +1,28 @@
+input1 = input("What is your name?")
+print("Hello ",input1)
+input2 = input("What is your student id?")
+print("Your id is ",input2)
+
+var1 = input()
+var2 = input()
+
+
+sum = int(var1) + int(var2)
+diff = int(var1) - int(var2)
+prod = int(var1) * int(var2)
+
+print(sum,",",diff,",",prod)
+
+name = input("Name:")
+labGrade = input("Lab grade:")
+midtermGrade = input("Midterm grade:")
+finalGrade = input("Final Grade:")
+lastScore = (float(labGrade)*0.25)+(float(midtermGrade)*0.35)+(float(finalGrade)*0.4)
+
+print(name)
+print(labGrade)
+print(midtermGrade)
+print(finalGrade)
+print((lastScore))
+
+print("\n* \n**\n***\n**\n*")
